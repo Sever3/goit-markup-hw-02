@@ -37,7 +37,7 @@ ul {
 .header-menu-item {}
 
 .header-menu-link {
-    color: inherit;
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -58,7 +58,7 @@ ul {
 .header-address-item {}
 
 .header-address-link {
-    color: #2e2f42;
+    color: inherit;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
