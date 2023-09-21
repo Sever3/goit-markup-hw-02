@@ -37,7 +37,7 @@ ul {
 .header-menu-item {}
 
 .header-menu-link {
-    color: ##2e2f42;
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -50,7 +50,7 @@ ul {
 }
 
 .header-address {
-
+    font-style: normal;
 }
 
 .header-address-list {}
@@ -58,11 +58,9 @@ ul {
 .header-address-item {}
 
 .header-address-link {
-    color: var(--SLATE, #434455);
-    /* Body */
+    color: #2e2f42;
     font-size: 16px;
-    font-style: normal;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -73,7 +71,7 @@ ul {
 
 /* ---------------- END HEADER ----------------- */
 
-/*-------------------- SECTION HERO -------------------- */
+/*-------------------- 1 SECTION HERO -------------------- */
 
 .hero {
     background-color: #2E2F42;
@@ -102,11 +100,11 @@ ul {
 
 .hero-buy-btn:hover,
 .hero-buy-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 /*------------------- END SECTION HERO ------------------ */
 
-/*------------------  SECTION FEATURES--------------------*/
+/*------------------ 2 SECTION FEATURES--------------------*/
 
 .features {
 }
@@ -135,7 +133,7 @@ ul {
 
 /*-----------------  END SECTION FEATURES-----------------*/
 
-/*------------------- SECTION OUR TEAM -------------------*/
+/*------------------- 3 SECTION OUR TEAM -------------------*/
 
 .team {
     background-color: #F4F4FD;
@@ -178,7 +176,7 @@ ul {
 
 /*----------------- END SECTION OUR TEAM -----------------*/
 
-/*------------------- SECTION PORTFOLIO ------------------*/
+/*------------------- 4 SECTION PORTFOLIO ------------------*/
 
 .portfolio {
 }
@@ -235,6 +233,9 @@ ul {
     .footer-logo: #f4f4fd;
 }
 
+.accent {
+    color: #f4f4fd;
+}
 .footer-text {
     color: #F4F4FD;
     /* Body */
