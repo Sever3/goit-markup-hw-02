@@ -1,0 +1,233 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#434455;
+    background-color:#ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* ---------------- HEADER ----------------- */
+
+.header {}
+
+.header-navigation {}
+
+.header-logo {
+    color: #434455;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.accent {
+    color: #4D5AE5;
+}
+
+.header-menu {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
+
+}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {}
+
+/* ---------------- END HEADER ----------------- */
+
+/*-------------------- SECTION HERO -------------------- */
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-buy-btn {
+    background-color:#4D5AE5;
+    color: #ffffff;
+    /* Button Text */
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+/*------------------- END SECTION HERO ------------------ */
+
+/*------------------  SECTION FEATURES--------------------*/
+
+.features {
+}
+.visually-hidden {
+}
+.features-list {
+}
+.features-item {
+}
+
+.features-subtitle {
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-item-text {
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*-----------------  END SECTION FEATURES-----------------*/
+
+/*------------------- SECTION OUR TEAM -------------------*/
+
+.team {
+}
+.team-title {
+    color: #2E2F42;
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+
+.team-subtitle {
+    color: #2E2F42;
+    text-align: center;
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-item-text {
+    text-align: center;
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*----------------- END SECTION OUR TEAM -----------------*/
+
+/*------------------- SECTION PORTFOLIO ------------------*/
+
+.portfolio {
+}
+.portfolio-title {
+    color: #2E2F42;
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-img {
+}
+.portfolio-subtitle {
+    color: #2E2F42;
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-item-text {
+    color: #434455;
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*----------------- END SECTION PORTFOLIO ----------------*/
+
+/*------------------------ FOOTER ------------------------*/
+
+.footer {
+}
+.footer-logo {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*----------------------- END FOOTER ---------------------*/
