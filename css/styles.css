@@ -19,8 +19,8 @@ ul {
 .header-navigation {}
 
 .header-logo {
-    color: #434455;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -28,8 +28,8 @@ ul {
     text-transform: uppercase;
 }
 
-.accent {
-    color: #4D5AE5;
+.header-logo span {
+    color: #2E2F42;
 }
 
 .header-menu {}
@@ -37,7 +37,7 @@ ul {
 .header-menu-item {}
 
 .header-menu-link {
-    color: #434455;
+    color: ##2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -45,9 +45,8 @@ ul {
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus,
-.header-menu-link:active {
-
+.header-menu-link:focus {
+    color:#404bbf;
 }
 
 .header-address {
@@ -65,6 +64,11 @@ ul {
     font-style: normal;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404bbf;
 }
 
 /* ---------------- END HEADER ----------------- */
@@ -93,8 +97,13 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
+.hero-buy-btn:hover,
+.hero-buy-btn:focus {
+    color: #404BBF;
+}
 /*------------------- END SECTION HERO ------------------ */
 
 /*------------------  SECTION FEATURES--------------------*/
@@ -111,6 +120,7 @@ ul {
 .features-subtitle {
     /* Header 3 */
     font-size: 20px;
+    color:#2e2f42;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -128,6 +138,7 @@ ul {
 /*------------------- SECTION OUR TEAM -------------------*/
 
 .team {
+    background-color: #F4F4FD;
 }
 .team-title {
     color: #2E2F42;
@@ -142,6 +153,7 @@ ul {
 .team-list {
 }
 .team-item {
+    background-color: #FFFFFF;
 }
 .team-img {
 }
@@ -207,15 +219,20 @@ ul {
 /*------------------------ FOOTER ------------------------*/
 
 .footer {
+    background-color:#2e2f42;
 }
 .footer-logo {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer-logo span {
+    .footer-logo: #f4f4fd;
 }
 
 .footer-text {
